@@ -1,5 +1,7 @@
 # Cloney Island Airbnb
 
+[![Build Status](https://semaphoreci.com/api/v1/rongxanh88/cloney_island_airbnb/branches/development/shields_badge.svg)](https://semaphoreci.com/rongxanh88/cloney_island_airbnb)
+
 ![Alt text](https://github.com/rongxanh88/cloney_island_airbnb/blob/development/app/screen_shots/first_homepage_shot.png?raw=true "Cloney Island Airbnb Homepage")
 
 Cloney Island is a greenfield development project aiming to clone much of the functionality and design of Airbnb's platform. Some of the tasks included are as follows:
@@ -43,9 +45,8 @@ Once this is complete, your application should be able to send a verification co
   * Clone this repo.
   * cd into it
   * ```bundle install```
-  * ```rake db:schema:load```
-  * ```rake db:setup```
   *```rake import:all```
+  * ```rake db:schema:load```
   *```rails server```
   * visit ```localhost:3000```
 
@@ -73,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Turing School of Software & Design
 
-[![Build Status](https://semaphoreci.com/api/v1/rongxanh88/cloney_island_airbnb/branches/development/shields_badge.svg)](https://semaphoreci.com/rongxanh88/cloney_island_airbnb)
+
