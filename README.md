@@ -2,7 +2,9 @@
 
 [![Build Status](https://semaphoreci.com/api/v1/rongxanh88/cloney_island_airbnb/branches/development/shields_badge.svg)](https://semaphoreci.com/rongxanh88/cloney_island_airbnb)
 
-![Alt text](https://github.com/rongxanh88/cloney_island_airbnb/blob/development/app/screen_shots/first_homepage_shot.png?raw=true "Cloney Island Airbnb Homepage")
+![Cloney Island Airbnb Homepage](https://github.com/adamgunther1/cloney_island_airbnb/blob/development/app/assets/images/home_page.png?raw=true "Cloney Island Airbnb Homepage")
+
+![Action Cable Chat](https://github.com/adamgunther1/cloney_island_airbnb/blob/development/app/assets/images/airbnb_action_cable.gif)
 
 Cloney Island is a greenfield development project aiming to clone much of the functionality and design of Airbnb's platform. Some of the tasks included are as follows:
 
@@ -39,6 +41,12 @@ TWILIO_AUTH_TOKEN: '############################'
 TWILIO_NUMBER: '+1 720-###-####'  
 
 Once this is complete, your application should be able to send a verification code to the phone number provided on the Twilio website.
+
+If you would like to avoid signing up for Twilio, you can follow the instructions to run locally and then open your rails console, grab the first user's email and use 'password' for the password to login:
+```
+rails c
+User.first.attributes.slice('email')
+```
 
 ### Running Locally
 
